@@ -13,17 +13,16 @@ npm install --save javascript-helper-functions
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
-
-import MyComponent from 'javascript-helper-functions'
+import React, { Component } from "react";
+import { truncateText } from "javascript-helper-functions";
 
 class Example extends Component {
-  render () {
-    return (
-      <MyComponent />
-    )
+  render() {
+    return <div>{truncateText(bodyText)}</div>;
   }
 }
+
+export default Example;
 ```
 
 ## License
