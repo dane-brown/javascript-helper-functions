@@ -31,9 +31,11 @@ export default Example;
 
 ## List of available helper functions
 
-| Function     | Description                              | Example                    | Args              |
-| ------------ | ---------------------------------------- | -------------------------- | ----------------- |
-| truncateText | Returns truncated text ending with "..." | truncateText(bodyText, 20) | - string - length |
+| Function     | Description                              | Example                  | Args                |
+| ------------ | ---------------------------------------- | ------------------------ | ------------------- |
+| truncateText | Returns truncated text ending with "..." | truncateText(string, 20) | 1. string 2. length |
+| toTitleCase  | Returns string in title case             | toTitleCase(string)      | 1. string           |
+| intComma     | Returns number in comma seperated number | intComma(number)         | 2. number           |
 
 ## License
 

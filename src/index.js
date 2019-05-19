@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { truncateText } from "./helpers";
+import { truncateText, toTitleCase, intComma } from "./helpers";
 
 const App = () => {
   const bodyText =
@@ -8,7 +8,7 @@ const App = () => {
   return (
     <div>
       This is the app <span />
-      {truncateText(bodyText, 20)}
+      {intComma(6000000000)}
       {/* This will return This is the app Lorem Ipsum is simpl... */}
     </div>
   );
