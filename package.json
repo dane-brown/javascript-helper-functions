@@ -5,9 +5,9 @@
   "author": "dane-brown",
   "license": "MIT",
   "repository": "dane-brown/javascript-helper-functions",
-  "main": "dist/index.js",
-  "module": "dist/index.es.js",
-  "jsnext:main": "dist/index.es.js",
+  "main": "dist/helpers.js",
+  "module": "dist/helpers.es.js",
+  "jsnext:main": "dist/helpers.es.js",
   "engines": {
     "node": ">=8",
     "npm": ">=5"
