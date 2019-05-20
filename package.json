@@ -1,11 +1,20 @@
 {
   "name": "javascript-helper-functions",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "🐠 A list of helpful javascript functions!",
   "author": "dane-brown",
   "license": "MIT",
   "homepage": "https://github.com/dane-brown/javascript-helper-functions",
   "repository": "https://github.com/dane-brown/javascript-helper-functions",
+  "keywords": [
+    "react",
+    "vue",
+    "javascript",
+    "helper functions",
+    "helper",
+    "javascript helper functions",
+    "js"
+  ],
   "main": "dist/helpers.js",
   "module": "dist/helpers.es.js",
   "jsnext:main": "dist/helpers.es.js",
