@@ -35,7 +35,13 @@ export default Example;
 | ------------ | ---------------------------------------- | ------------------------ | ------------------- |
 | truncateText | Returns truncated text ending with "..." | truncateText(string, 20) | 1. string 2. length |
 | toTitleCase  | Returns string in title case             | toTitleCase(string)      | 1. string           |
-| intComma     | Returns number in comma seperated number | intComma(number)         | 2. number           |
+
+## Number Helpers
+
+| Function | Description                              | Example          | Args      |
+| -------- | ---------------------------------------- | ---------------- | --------- |
+| intComma | Returns number in comma seperated number | intComma(number) | 2. number |
+| isEven   | Returns if number is even or not         | isEven(number)   | 2. number |
 
 ## License
 

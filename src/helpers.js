@@ -1,3 +1,4 @@
+// String Helpers
 export function truncateText(string, chars) {
   if (string.length > chars) {
     return string.substring(0, chars) + "...";
@@ -14,6 +15,15 @@ export function toTitleCase(str) {
   return str.join(" ");
 }
 
+// Number Helpers
 export function intComma(x) {
   return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
+
+export function isEven(num) {
+  return num % 2 === 0;
+}
+
+// Array Helpers
+
+// Object Helpers
