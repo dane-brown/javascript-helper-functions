@@ -29,7 +29,7 @@ class Example extends Component {
 export default Example;
 ```
 
-## List of available helper functions
+## String Helpers
 
 | Function     | Description                              | Example                  | Args                |
 | ------------ | ---------------------------------------- | ------------------------ | ------------------- |
