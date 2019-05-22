@@ -27,3 +27,7 @@ export function isEven(num) {
 // Array Helpers
 
 // Object Helpers
+
+export function copyObject(object) {
+  return JSON.parse(JSON.stringify(object));
+}

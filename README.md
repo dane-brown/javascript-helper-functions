@@ -40,8 +40,16 @@ export default Example;
 
 | Function | Description                              | Example          | Args      |
 | -------- | ---------------------------------------- | ---------------- | --------- |
-| intComma | Returns number in comma seperated number | intComma(number) | 2. number |
-| isEven   | Returns if number is even or not         | isEven(number)   | 2. number |
+| intComma | Returns number in comma seperated number | intComma(number) | 1. number |
+| isEven   | Returns if number is even or not         | isEven(number)   | 1. number |
+
+## Array Helpers
+
+## Object Helpers
+
+| Function   | Description                  | Example         | Args      |
+| ---------- | ---------------------------- | --------------- | --------- |
+| copyObject | Returns a copy of the object | copyObject(obj) | 1. object |
 
 ## License
 
