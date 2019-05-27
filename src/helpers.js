@@ -31,3 +31,23 @@ export function isEven(num) {
 export function copyObject(object) {
   return JSON.parse(JSON.stringify(object));
 }
+
+// URL
+
+export function addParam(param, page) {
+  var url = window.location.origin;
+  url = url + `?${param}=${page}`;
+  window.location.href = url;
+}
+
+export function updateParam(param, page) {
+  if (window.history.pushState) {
+    var newurl =
+      window.location.protocol +
+      "//" +
+      window.location.host +
+      window.location.pathname +
+      `?${param}=${page}`;
+    window.history.pushState({ path: newurl }, "", newurl);
+  }
+}

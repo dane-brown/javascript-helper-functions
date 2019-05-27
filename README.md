@@ -51,6 +51,13 @@ export default Example;
 | ---------- | ---------------------------- | --------------- | --------- |
 | copyObject | Returns a copy of the object | copyObject(obj) | 1. object |
 
+## URL Helpers
+
+| Function    | Description                                                     | Example             | Args                 |
+| ----------- | --------------------------------------------------------------- | ------------------- | -------------------- |
+| addParam    | Adds parameter to url, EG: www.google.com/?page=1               | addParam('page', 1) | 1. option, 2. option |
+| updateParam | Updates parameter to url, EG: www.google.com/?page=1 => ?page=2 | addParam('page', 2) | 1. option, 2. option |
+
 ## License
 
 MIT © [dane-brown](https://github.com/dane-brown)
