@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import RenderExample from './RenderExample';
 import {
   truncateText,
   toTitleCase,
@@ -44,6 +45,11 @@ const App = () => {
       <br />
       <h1>Update URL</h1>
       <button onClick={() => handleClick(page)}>Click me</button>
+      <br/>
+      <br/>
+      <br/>
+      <h1>Data Fetch</h1>
+      <RenderExample />
     </div>
   );
 };

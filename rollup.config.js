@@ -9,15 +9,17 @@ import svgr from "@svgr/rollup";
 import pkg from "./package.json";
 
 export default {
-  input: "src/helpers.js",
+  input: ["src/helpers.js", "src/useMatchFetch.js"],
+  experimentalCodeSplitting: true,
+  experimentalDynamicImport: true,
   output: [
     {
-      file: pkg.main,
+      dir: 'lib',
       format: "cjs",
       sourcemap: true
     },
     {
-      file: pkg.module,
+      dir: 'lib',
       format: "es",
       sourcemap: true
     }
